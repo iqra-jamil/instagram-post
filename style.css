@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #203a43;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-height: 80vh;
+    width: 25vw;
+    background-color: #fff;
+    padding: 1vw 1vw;
+    
+}
+.container img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.container .top{
+display: flex;
+width:100%;
+font-size: 1.5vw;
+}
+.top .left {
+    width:95%;
+}
+.left i{
+    color:grey;
+}
+.top .right{
+  font-size: x-large;
+}
+.four-icons{
+    display: flex;
+   font-size: 25px;
+}
+.four-icons .bottom-left{
+   
+    width:100%;
+}
+.likes{
+    padding-top: 0.5vw ;
+    padding-left: 0.5vw;
+}
+.description{
+   padding-top: 0.5vw ;
+    padding-left: 0.5vw;
+}
+.description span{
+    font-size: 15px;
+    color: gray;
+}
+.comments {
+    padding-top: 0.5vw ;
+    padding-left: 0.5vw;
+}
+.comments{
+    color: gray;
+}
+.days{
+    padding-top: 0.5vw ;
+    padding-left: 0.5vw;
+    color: gray;
+    font-size: 10px;
+}
+.love-icon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:#fff;
+   font-size: 60px;
+   opacity: 0;
+   transform: translate(-50%,-50%) scale(0);
+   transition: trasnform ease 0.5s,opacity ease 0.5s;
+}
+
+
+  
